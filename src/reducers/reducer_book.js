@@ -1,9 +1,9 @@
 export default function() {
-  return {
-    title: 'book1',
-    title: 'book2',
-    title: 'book3',
-    title: 'book4',
-    title: 'book5',
-  };
+  return [
+    { title: 'Code Complete' },
+    { title: 'Computer Systems' },
+    { title: 'Java programming' },
+    { title: 'Algorithm' },
+    { title: 'Happy Potter' },
+  ];
 };
